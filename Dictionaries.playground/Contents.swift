@@ -1,7 +1,7 @@
 let airports = [
-    "YYZ": "Toronto Pearson",
-    "DUB": "Dublin",
-    "JFK": "John F. Kennedy International Airport",
+    "YYZ" : "Toronto Pearson",
+    "DUB" : "Dublin",
+    "JFK" : "John F. Kennedy International Airport"
 ]
 
 if let airport = airports["YYZ"] {
@@ -23,9 +23,6 @@ for (key, value) in airports {
 for (airportCode, airportName) in airports {
     print("The abbreviation for \(airportName) is \(airportCode)")
 }
-
-
-
 
 let toyStoryFilms = [
     "Toy Story",
@@ -51,7 +48,7 @@ let starWarsFilms = [
 let fastAndFuriousFilms = [
     "The Fast and the Furious",
     "2 Fast 2 Furious",
-    "Turbo-Charged Prelud",
+    "Turbo-Charged Prelude",
     "Tokyo Drift",
     "Fast & Furious",
     "Los Bandoleros",
@@ -70,3 +67,11 @@ let movies = [
 for (franchise, titles) in movies {
     print("There are \(titles.count) movies in the \(franchise) series")
 }
+
+
+
+
+
+
+
+
